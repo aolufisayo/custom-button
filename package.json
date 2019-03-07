@@ -1,0 +1,21 @@
+{
+    "name": "@dreyy/custom-button",
+    "description": " a custom button component made with storybook.js",
+    "author": {
+        "name": "olufisayo akinmoju",
+        "email": " juliematheson95@gmail.com"
+    },
+    "module": "/dist/custom-button",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com/holuphisayor/custom-button.git"
+    },
+    "homepage": "https://github.com/holuphisayor/custom-button#readme",
+    "license": "MIT",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "webpack --config webpack.config.js",
+        "storybook": "start-storybook -p 9001 -c .storybook",
+        "docs:build": "build-storybook -c .storybook -o .docs"
+    }
+}

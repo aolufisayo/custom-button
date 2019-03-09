@@ -1,9 +1,9 @@
 {
     "name": "@dreyy/custom-button",
-    "description": " a custom button component made with storybook.js",
+    "description": "a custom button component made with storybook.js",
     "author": {
         "name": "olufisayo akinmoju",
-        "email": " juliematheson95@gmail.com"
+        "email": "juliematheson95@gmail.com"
     },
     "module": "/dist/custom-button",
     "repository": {
@@ -17,5 +17,19 @@
         "build": "webpack --config webpack.config.js",
         "storybook": "start-storybook -p 9001 -c .storybook",
         "docs:build": "build-storybook -c .storybook -o .docs"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.3.4",
+        "@babel/preset-env": "^7.3.4",
+        "@babel/preset-react": "^7.0.0",
+        "@storybook/addon-info": "^5.0.1",
+        "@storybook/components": "^5.0.1",
+        "@storybook/react": "^5.0.1",
+        "babel-loader": "^8.0.5",
+        "clean-webpack-plugin": "^2.0.0",
+        "storybook-addon-jsx": "^6.0.0",
+        "uglifyjs-webpack-plugin": "^2.1.2",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.2.3"
     }
 }

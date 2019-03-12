@@ -5,7 +5,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
     mode: "production",
-    entry: "./src/index.js",
+    entry: "./src/components/index.js",
     output: {
         filename: 'custom-button.js',
         library: 'custom-button',
@@ -44,7 +44,7 @@ module.exports = {
         minimizer: [new UglifyJsPlugin()]
     },
     plugins: [
-        new CleanWebpackPlugin(['dist'])
+        new CleanWebpackPlugin()
     ]
 
 }
